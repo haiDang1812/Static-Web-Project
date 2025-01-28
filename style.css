@@ -1,0 +1,279 @@
+
+.navbar {
+    background-color: #0066ff;
+    height: 90px;
+}
+.brand {
+    color: white;
+    font-family: sans-serif; 
+    font-size: 25px; 
+    vertical-align: middle;
+    padding-top: 35px;
+}
+.navbar-li {
+    font-size: 15px;
+    color: white;   
+}
+.pad-top-5 { 
+    padding-top: 5px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.cusnav {
+    color: #0066ff;
+    font-size: 30px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border: none;
+}
+.menu-items {
+    color: black;
+}
+.ss-font {
+    font-family: sans-serif;
+}
+
+
+
+.news {
+    border: 1px solid;
+	border-color: #B3B1AE;
+}
+
+.pad-none {
+    padding: 0px 0px 0px 0px;
+}
+
+
+.submit-form {
+    width: 120px;
+    height: 40px;
+    background-color: #eb9b34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+footer {
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+    color: cadetblue;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#align-center {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.footer-form-1{
+    border: none;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    }
+.footer-form-2{
+    background-color: white;
+    color: black;
+}
+.pad-top-20 {
+    padding-top: 20px;
+}
+li {
+    list-style-type: none;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 12px;
+}
+.mg-top-30 {
+    margin-top: 30px;
+}
+.left-align {
+    float: left;
+}
+.image-box {
+    position: relative;
+    color: white;
+}
+.our-business-icon-1 {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.our-business-icon-2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.our-business-text {
+    position: absolute;
+    top: 20%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+}
+.our-business-icon-sm-1 {
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    transform: translate(-50%, -50%);   
+}
+.our-business-icon-sm-2 {
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    transform: translate(-50%, -50%);    
+}
+.our-business-text-sm {
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.orange-color {
+    color: orange !important;
+}
+
+
+/***tablet**/
+@media only screen and (max-width: 768px) {
+    .nonedisplay {
+        display: none;
+    }
+    .rightalign1 {
+        float: right;
+    }
+}
+
+.containerflex {
+    display: flex;
+}
+.containerflex .item {
+    flex: 1 1 auto;
+}
+
+.bg-color {
+    border: 1px solid green;
+    margin-right: 5px;
+}
+/***laptop**/
+@media only screen and (min-width: 768px) {
+    .nonedisplay1 {
+        display: none;
+    }
+    .paddingright5 {
+        padding-right: 5px;
+    }
+ 
+    .rightalign {
+        float: right;
+    } 
+}
+@media only screen and (min-width: 992px) {
+    .paddingright80 {
+        padding-right: 80px;
+    }
+}
+    
+/***mobile**/
+@media only screen and (max-width: 767px) {
+    
+    .paddingright5 {
+        padding-right: 10px;
+    }
+    .nonedisplay2 {
+        display: none;
+    }
+    .cusnavmobile {
+        color: #0066ff;
+        background-color: white;
+    }
+    .navbar-default .navbar-brand .bluefont {
+        color: #0066ff;
+    }
+    .fontsize10 {
+        font-size: 10px;
+    }
+    .fontsize13 {
+        font-size: 13px;
+    }
+    .custom-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .d-none-mobile {
+        display: none;
+    }
+    a:visited {
+        color: black;
+        text-decoration: none;
+    }
+    a:link {
+        color: white;
+        text-decoration: none;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    .libackground {
+        background-color: #0066ff;
+    }
+    .left-align {
+        float: left;
+    }
+    .navbarsmlist {
+        background-color: #0066ff;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.fontsize30 {
+    font-size: 30px;
+}
+.d-block-mobile { 
+	display: none;
+}
+@media only screen and (max-width: 767px) { 
+    .navbar-default .navbar-brand {
+        color: #0066ff;
+    }
+    .d-block-mobile {
+        display: block;
+		display: flex;
+		align-items: center;
+		margin-top: 11px;
+    }
+}

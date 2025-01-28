@@ -1,0 +1,180 @@
+body {
+    font-family: sans-serif;
+}
+
+.nav-height {
+    height: 75px;
+}
+
+.brand-font-size {
+    font-size: 27px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.em-dash {
+    font-size: 40px;
+    color: #007bff !important;
+}
+
+p {
+    font-size: 14px;
+}
+
+.padding-top-40 {
+    padding-top: 40px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.footer-form-1 {
+    border: none;
+    background-color: black;
+}
+
+.footer-form-2 {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.border-form {
+    border-bottom: 1px solid white;
+    border-radius: 10%;
+}
+
+hr.white {
+    border-top: 1px solid white;
+}
+
+.padding-bottom-15 {
+    padding-bottom: 15px;
+}
+
+ul.footer {
+    color: #B0B0B0;
+}
+
+.color-white {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.card {
+    width: 200px;
+}
+
+ul.formul {
+    list-style-type: disc;
+}
+
+.submit-form {
+    width: 120px;
+    height: 40px;
+    background-color: #eb9b34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    float: right;
+}
+
+.fontsize30 {
+    font-size: 30px;
+}
+
+.news {
+    border: 1px solid;
+    border-color: #B3B1AE;
+}
+
+.navbar {
+    justify-content: flex-start;
+}
+
+.orange-color {
+    color: orange !important;
+}
+
+.bg-smoke {
+    background-color: #F5F5F5;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.bg-table-head {
+    background-color: #007bff;
+}
+
+/* tablet */
+@media only screen and (min-width: 576px) {
+    .text-primary {
+        color: unset !important;
+    } 
+    .brand-color {
+        color: white !important;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 575px) {
+    .bg-primary {
+        background-color: unset !important;
+    }
+    .text-white {
+        color: unset !important;
+    }
+    .none-display {
+        display: none;
+    }
+    .text-nav-xs {
+        color: #007bff;
+    }
+    .bg-blue {
+        background-color: #007bff;
+    }
+    .brand-color {
+        color: #007bff !important;
+    }
+    ul.ulfooter {
+        padding-inline-start: 10px;
+    }
+}
+
+/* laptop */
+@media only screen and (min-width: 769px) {
+    .paddingleft180 {
+        padding-left: 180px;
+    }
+    .alignright {
+        float: right;
+    }
+    .paddingleft20pc {
+        padding-left: 20%;
+    }
+    .pl-10 {
+        padding-left: 10rem;
+    }
+    .pr-70 {
+        padding-right: 70px;
+    }
+    .brand-color {
+        color: white !important;
+    }
+}
